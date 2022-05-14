@@ -9,6 +9,15 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+
+     square seq1=new square("sequar1",10);
+     shape seq2=new square("seq2",5);
+
+     circle circle1=new circle("c1",2);
+     circle circle2=new circle("c2",3);
+
+     System.out.println(seq1.area());
+
+
     }
 }
