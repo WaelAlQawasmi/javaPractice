@@ -3,6 +3,8 @@
  */
 package javaPractice;
 
+import java.util.Scanner;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
@@ -10,13 +12,31 @@ public class App {
 
     public static void main(String[] args) {
 
-     square seq1=new square("sequar1",10);
-     shape seq2=new square("seq2",5);
+        square seq1 = new square("sequar1", 10);
+        shape seq2 = new square("seq2", 5);
 
-     circle circle1=new circle("c1",2);
-     circle circle2=new circle("c2",3);
+        circle circle1 = new circle("c1", 2);
+        circle circle2 = new circle("c2", 3);
 
-     System.out.println(seq1.area());
+        System.out.println(seq1.area());
+        System.out.println("please input the nme os circle :");
+        Scanner circleInputName = new Scanner(System.in);
+        String name = circleInputName.nextLine();
+
+        System.out.println("please input the radius  os circle :");
+        Scanner circleInput = new Scanner(System.in);
+        int raduies = circleInput.nextInt();
+
+        if (raduies < 0) {
+            throw new ArithmeticException("ERROR RADUIES ");
+        }
+
+        System.out.println("name is " + name);
+
+        System.out.println("kiddies is " + raduies);
+
+
+        System.out.println("area is " + circle.area(raduies));
 
 
     }
