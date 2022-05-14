@@ -13,6 +13,12 @@ public class circle extends shape implements circleProperties {
         return Math.PI * 2 * Math.pow(Radius, 2);
     }
 
+
+
+    public static double area(double Radius) {
+        return Math.PI * 2 * Math.pow(Radius, 2);
+    }
+
     @Override
     public double Perimeter() {
         return Math.PI * 2 * Radius;
