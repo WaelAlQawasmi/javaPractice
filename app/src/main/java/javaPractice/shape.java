@@ -5,6 +5,7 @@ public abstract class shape {
 
 
     public shape(String name) {
+
         this.name = name;
     }
 
