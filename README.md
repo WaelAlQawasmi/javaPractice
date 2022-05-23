@@ -1,1 +1,10 @@
 # javaPractice
+## OOP 
+- class  
+- object
+- abstract 
+- inheritance
+- interface 
+- polymorphism 
+ ## String
+- split
